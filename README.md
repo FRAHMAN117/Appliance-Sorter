@@ -1,8 +1,7 @@
-Appliance Management System
-Overview
+#Overview
 This project is a Java-based desktop application designed to manage and display a list of appliances. It features a graphical user interface (GUI) for user interaction and robust file-handling capabilities to read appliance data from a text file. The system uses an object-oriented approach to model different types of appliances, validates data upon entry, and allows users to search for appliances based on specific criteria.
 
-Features
+#Features
 GUI Interface: A user-friendly graphical interface built with Swing, which displays three separate sections for Refrigerators, Dishwashers, and Microwaves.
 
 Object-Oriented Design: The core functionality is built around an abstract Appliance class. This class defines common behaviors and properties like a serial number and methods for comparison, ensuring consistency across all appliance types.
@@ -30,7 +29,7 @@ Project4.java: The main class that launches the GUI by creating a new ApplianceG
 
 TextFileInput.java: A utility class for handling simplified buffered character input from text files. This class includes additional methods for line-by-line reading and error handling.
 
-How to Compile and Run
+#How to Compile and Run
 To run this project, you need a Java Development Kit (JDK) installed on your system.
 
 Save all files in a single directory.
